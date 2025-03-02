@@ -58,7 +58,7 @@ $h-size-6: 1em !default; // ~16px
    Colors
    ========================================================================== */
 
-$gray: #7a8288 !default;
+$gray: #9e292b !default;
 $dark-gray: mix(#000, $gray, 50%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
@@ -73,11 +73,11 @@ $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
-$primary-color: #6f777d !default;
+$primary-color: #9e292b !default;
 $success-color: #3fa63f !default;
 $warning-color: #d67f05 !default;
-$danger-color: #ee5f5b !default;
-$info-color: #3b9cba !default;
+$danger-color: #9e292b !default;
+$info-color: #9e292b !default;
 $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
 
@@ -113,8 +113,8 @@ $vine-color: #00bf8f !default;
 $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
-/* links */
-$link-color: mix(#000, $info-color, 20%) !default;
+/* Links */
+$link-color: mix(#000, $primary-color, 20%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 15%) !default;
 $masthead-link-color: $primary-color !default;
